@@ -9,15 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenDan", "src\BenDan\BenDan
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EEC911D4-DAD4-4B75-9D94-BEA295697050}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{6D1B84CA-CE69-4A7A-85A0-AB2E18DA2C6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{6D1B84CA-CE69-4A7A-85A0-AB2E18DA2C6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{019D5174-22A7-44A6-8C03-D2788682C671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplicationCore", "src\ApplicationCore\ApplicationCore.csproj", "{019D5174-22A7-44A6-8C03-D2788682C671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{47E0B94A-5FB7-4CF5-A630-915A9D76E487}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{47E0B94A-5FB7-4CF5-A630-915A9D76E487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenDan.ORM", "src\BenDan.ORM\BenDan.ORM.csproj", "{83EA0549-A2E1-462E-B775-05FB1881DF5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenDan.ORM", "src\BenDan.ORM\BenDan.ORM.csproj", "{83EA0549-A2E1-462E-B775-05FB1881DF5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenDan.Common", "src\BenDan.Common\BenDan.Common.csproj", "{C4ED824A-7E1A-4904-A59E-22BB6098D107}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BenDan.Common", "src\BenDan.Common\BenDan.Common.csproj", "{C4ED824A-7E1A-4904-A59E-22BB6098D107}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

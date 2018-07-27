@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace BenDan.ORM.SqlServe
+namespace BenDan.ORM
 {
     public class SqlDBConfig
     {
@@ -14,7 +14,7 @@ namespace BenDan.ORM.SqlServe
         {
             if (string.IsNullOrWhiteSpace(sqlConnectionString))
             {
-                sqlConnectionString = PublicConstant.ConnectionString;
+                sqlConnectionString = PublicConstant.SQLConString;
             }
             IDbConnection conn = new SqlConnection(sqlConnectionString);
             conn.Open();
