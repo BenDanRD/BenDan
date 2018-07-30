@@ -8,7 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BenDan.Controllers
 {
-
+        /// <summary>
+        /// 用户信息
+        /// </summary>
         [Route("api/[controller]/[action]")]
         public class UsersController : Controller
         {

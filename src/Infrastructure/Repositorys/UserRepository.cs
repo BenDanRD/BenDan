@@ -43,6 +43,18 @@ namespace Infrastructure.Repositorys
             return await Select(selectSql);
         }
 
+        public bool IfHasName(string username)
+        {
+            string selectsql = @"select count from USERS";
+            var result = 0;
+            using (IDbConnection conn = SqlDBConfig.GetSqlConnection())
+            {
+                result =  int.Parse(conn.QueryFirstOrDefaultAsync<Users>(selectsql, new { username }).ToString());
+            }
+            if (result > 0) { return true; }
+            return false;
+        }
+
         public async Task PostUser(Users entity)
         {
             string insertSql = @"INSERT INTO [dbo].[Users](Id, UserName, Password, Gender, Birthday, CreateDate, IsDelete) VALUES(@Id, @UserName, @Password, @Gender, @Birthday, @CreateDate, @IsDelete)";

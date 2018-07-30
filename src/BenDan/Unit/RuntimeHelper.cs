@@ -29,7 +29,7 @@ namespace BenDan.Unit
                     var assembly = AssemblyLoadContext.Default.LoadFromAssemblyName(new AssemblyName(lib.Name));
                     list.Add(assembly);
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     //
                 }

@@ -12,6 +12,7 @@ namespace ApplicationCore.Interfaces
 
         //加一个带参数的存储过程
         string ExecExecQueryParamSP(string spName, string name, int Id);
+        bool IfHasName(string username);
 
         Task<List<Users>> GetUsers();
 
